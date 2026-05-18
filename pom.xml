@@ -26,20 +26,9 @@
             <version>${carina-version}</version>
         </dependency>
         <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>6.1.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.20.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.20.0</version>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-webdriver</artifactId>
+            <version>1.1.5</version>
         </dependency>
     </dependencies>
 
@@ -50,7 +39,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <release>${java.version}</release>
+                    <release>21</release>
                     <compilerArgs>
                         <arg>-parameters</arg>
                     </compilerArgs>
@@ -88,9 +77,6 @@
                 <configuration>
                     <argLine>-javaagent:${project.build.directory}/agent/zebrunner-agent.jar</argLine>
                     <useSystemClassLoader>false</useSystemClassLoader>
-                    <systemPropertyVariables>
-                        <selenium_url>chrome</selenium_url>
-                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>

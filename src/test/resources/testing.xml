@@ -4,9 +4,9 @@
             <class name="ua.solvd.utesting.MockApiTest"/>
         </classes>
     </test>
-    <test name="UI Regression Tests">
+    <test name="UI Wikipedia Tests">
         <classes>
-            <class name="ua.solvd.utesting.WikipediaUiTest"/>
+            <class name="ua.solvd.utesting.WikipediaUITest"/>
         </classes>
     </test>
 </suite>
