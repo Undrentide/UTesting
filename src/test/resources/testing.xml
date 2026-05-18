@@ -1,7 +1,12 @@
 <suite name="API Test Suite" verbose="1">
-    <test name="Httpbin Regression Tests">
+    <test name="API Regression Tests">
         <classes>
             <class name="ua.solvd.utesting.MockApiTest"/>
+        </classes>
+    </test>
+    <test name="UI Regression Tests">
+        <classes>
+            <class name="ua.solvd.utesting.WikipediaUiTest"/>
         </classes>
     </test>
 </suite>
