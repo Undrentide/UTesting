@@ -11,7 +11,7 @@ import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MockApiTest implements IAbstractTest {
+public class ApiTest implements IAbstractTest {
 
     @Test(description = "Test 1: status code 200 OK...")
     public void testStatusCode200() {

@@ -2,17 +2,17 @@
 <suite name="Full Regression Test-Suite" verbose="1">
     <test name="API Tests">
         <classes>
-            <class name="ua.solvd.utesting.MockApiTest"/>
+            <class name="ua.solvd.utesting.ApiTest"/>
         </classes>
     </test>
     <test name="Web Tests">
         <classes>
-            <class name="ua.solvd.utesting.WikipediaUITest"/>
+            <class name="ua.solvd.utesting.WebTest"/>
         </classes>
     </test>
-    <test name="Mobile Tests">
+    <!--<test name="Mobile Tests">
         <classes>
-            <class name="ua.solvd.utesting.CalculatorMobileTest"/>
+            <class name="ua.solvd.utesting.MobileTest"/>
         </classes>
-    </test>
+    </test>-->
 </suite>

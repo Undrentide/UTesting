@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ua.solvd.utesting.ui.CalculatorPage;
 
-public class CalculatorMobileTest implements IAbstractTest {
+public class MobileTest implements IAbstractTest {
 
     @Test(description = "Test 21: Verify addition: 2 + 3 = 5...")
     public void testAddition() {

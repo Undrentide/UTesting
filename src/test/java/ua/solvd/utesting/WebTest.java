@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import ua.solvd.utesting.ui.WikipediaArticlePage;
 import ua.solvd.utesting.ui.WikipediaHomePage;
 
-public class WikipediaUITest implements IAbstractTest {
+public class WebTest implements IAbstractTest {
 
     @BeforeMethod
     public void maximizeWindow() {
